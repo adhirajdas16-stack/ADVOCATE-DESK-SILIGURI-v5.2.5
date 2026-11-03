@@ -1,0 +1,50 @@
+{
+  "app": {
+    "name": "ADVOCATE DESK \u2013 SILIGURI",
+    "applicationId": "in.advocatedesk.siliguri",
+    "versionName": "5.2.2",
+    "versionCode": 11,
+    "environment": "development",
+    "defaultTheme": "dark",
+    "accentColor": "#00E5FF",
+    "backgroundColor": "#080B10",
+    "textColor": "#FFFFFF",
+    "minimumAndroidApi": 23,
+    "targetAndroidApi": 35
+  },
+  "backend": {
+    "provider": "supabase",
+    "projectUrl": "",
+    "publishableKey": "",
+    "workspaceId": "",
+    "configured": false,
+    "features": {
+      "emailAuthentication": true,
+      "workspaceCaseSync": true,
+      "privateDocumentStorage": true,
+      "realtimeSync": false,
+      "conflictSafeSync": false
+    }
+  },
+  "courtIntegration": {
+    "enabled": true,
+    "provider": "Official eCourts websites (in-app WebView; manual search)",
+    "authorisedDataSourceConfigured": false,
+    "automaticCaseDiscovery": false,
+    "automaticStatusUpdates": false,
+    "requireHumanReview": true,
+    "notes": "Official Darjeeling (Siliguri Sub-Division), Jalpaiguri District Court and central eCourts portals open inside the app. CAPTCHA must be completed manually. No official free background case-data API is configured."
+  },
+  "security": {
+    "localDatabaseEncryption": true,
+    "androidKeystoreKeyProtection": true,
+    "privateDocumentBucketRequired": true,
+    "neverEmbedServiceRoleKey": true,
+    "productionUseApproved": false
+  },
+  "release": {
+    "apkBuilt": false,
+    "deviceTested": false,
+    "productionDeployed": false
+  }
+}
